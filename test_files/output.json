@@ -1,0 +1,175 @@
+{
+  "file": {
+    "fileInfo": {
+      "fileName": "full_lossless.jp2",
+      "filePath": "/Users/sebastianlange/Documents/Oxford/work/Micorservices/jpylyzer_scan/test_files/example_jp2s/example_jp2_folder/03/ff/ff/__latest/full_lossless.jp2",
+      "fileLastModified": ""
+    },
+    "isValid": "True",
+    "properties": {
+      "contiguousCodestreamBox": {
+        "cod": {
+          "order": "RPCL",
+          "sop": "yes",
+          "eph": "yes",
+          "codeBlockWidth": "64",
+          "codeBlockHeight": "64",
+          "transformation": "5-3 reversible",
+          "layers": "6",
+          "levels": "6"
+        },
+        "com": {
+          "comment": "Kakadu-v7.8"
+        }
+      }
+    }
+  },
+  "toolInfo": {
+    "toolVersion": "2.1.0"
+  }
+}{
+  "file": {
+    "fileInfo": {
+      "fileName": "full_lossy.jp2",
+      "filePath": "/Users/sebastianlange/Documents/Oxford/work/Micorservices/jpylyzer_scan/test_files/example_jp2s/example_jp2_folder/03/ff/ff/__latest/full_lossy.jp2",
+      "fileLastModified": ""
+    },
+    "isValid": "True",
+    "properties": {
+      "contiguousCodestreamBox": {
+        "cod": {
+          "order": "RPCL",
+          "sop": "yes",
+          "eph": "yes",
+          "codeBlockWidth": "64",
+          "codeBlockHeight": "64",
+          "transformation": "9-7 irreversible",
+          "layers": "6",
+          "levels": "6"
+        },
+        "com": {
+          "comment": "Kakadu-v7.8"
+        }
+      }
+    }
+  },
+  "toolInfo": {
+    "toolVersion": "2.1.0"
+  }
+}{
+  "file": {
+    "fileInfo": {
+      "fileName": "full_lossless.jp2",
+      "filePath": "/Users/sebastianlange/Documents/Oxford/work/Micorservices/jpylyzer_scan/test_files/example_jp2s/example_jp2_folder/02/ab/cd/__latest/full_lossless.jp2",
+      "fileLastModified": ""
+    },
+    "isValid": "True",
+    "properties": {
+      "contiguousCodestreamBox": {
+        "cod": {
+          "order": "RPCL",
+          "sop": "yes",
+          "eph": "yes",
+          "codeBlockWidth": "64",
+          "codeBlockHeight": "64",
+          "transformation": "5-3 reversible",
+          "layers": "6",
+          "levels": "6"
+        },
+        "com": {
+          "comment": "Kakadu-v7.8"
+        }
+      }
+    }
+  },
+  "toolInfo": {
+    "toolVersion": "2.1.0"
+  }
+}{
+  "file": {
+    "fileInfo": {
+      "fileName": "full_lossy.jp2",
+      "filePath": "/Users/sebastianlange/Documents/Oxford/work/Micorservices/jpylyzer_scan/test_files/example_jp2s/example_jp2_folder/02/ab/cd/__latest/full_lossy.jp2",
+      "fileLastModified": ""
+    },
+    "isValid": "True",
+    "properties": {
+      "contiguousCodestreamBox": {
+        "cod": {
+          "order": "RPCL",
+          "sop": "yes",
+          "eph": "yes",
+          "codeBlockWidth": "64",
+          "codeBlockHeight": "64",
+          "transformation": "9-7 irreversible",
+          "layers": "6",
+          "levels": "6"
+        },
+        "com": {
+          "comment": "Kakadu-v7.8"
+        }
+      }
+    }
+  },
+  "toolInfo": {
+    "toolVersion": "2.1.0"
+  }
+}{
+  "file": {
+    "fileInfo": {
+      "fileName": "full_lossless.jp2",
+      "filePath": "/Users/sebastianlange/Documents/Oxford/work/Micorservices/jpylyzer_scan/test_files/example_jp2s/example_jp2_folder/01/__latest/full_lossless.jp2",
+      "fileLastModified": ""
+    },
+    "isValid": "True",
+    "properties": {
+      "contiguousCodestreamBox": {
+        "cod": {
+          "order": "RPCL",
+          "sop": "yes",
+          "eph": "yes",
+          "codeBlockWidth": "64",
+          "codeBlockHeight": "64",
+          "transformation": "5-3 reversible",
+          "layers": "6",
+          "levels": "6"
+        },
+        "com": {
+          "comment": "Kakadu-v7.8"
+        }
+      }
+    }
+  },
+  "toolInfo": {
+    "toolVersion": "2.1.0"
+  }
+}{
+  "file": {
+    "fileInfo": {
+      "fileName": "full_lossy.jp2",
+      "filePath": "/Users/sebastianlange/Documents/Oxford/work/Micorservices/jpylyzer_scan/test_files/example_jp2s/example_jp2_folder/01/__latest/full_lossy.jp2",
+      "fileLastModified": ""
+    },
+    "isValid": "True",
+    "properties": {
+      "contiguousCodestreamBox": {
+        "cod": {
+          "order": "RPCL",
+          "sop": "yes",
+          "eph": "yes",
+          "codeBlockWidth": "64",
+          "codeBlockHeight": "64",
+          "transformation": "9-7 irreversible",
+          "layers": "6",
+          "levels": "6"
+        },
+        "com": {
+          "comment": "Kakadu-v7.8"
+        }
+      }
+    }
+  },
+  "toolInfo": {
+    "toolVersion": "2.1.0"
+  }
+}
