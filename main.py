@@ -1,3 +1,4 @@
+import timeit
 from jpylyzer import jpylyzer
 import os
 import json
@@ -77,7 +78,8 @@ def create_jpylyzer_info(fp):
 
 def write_to_json(f_info, output_file):
     with open(output_file, 'a') as outfile:
-        json.dump(f_info,outfile, indent=2)
+        json.dump(f_info,outfile)
+        outfile.write('\n')
 
 
 def empty_file(output_file):
@@ -85,12 +87,28 @@ def empty_file(output_file):
 
 
 def main(output_file, main_dir):
+    start = timeit.default_timer()
     empty_file(output_file)
+    stop = timeit.default_timer()
+    empty_file_time = stop-start
+    print(f"Time to empty file {empty_file_time}")
+    start = timeit.default_timer()
     jp2_files = get_jp2_files(main_dir)
+    stop = timeit.default_timer()
+    get_jpfiles_time = stop - start
+    print(f"Time to get jp2 files {get_jpfiles_time}")
     for jp_fp in jp2_files:
+        start = timeit.default_timer()
         create_jpylyzer_info(jp_fp)
         jpylyzer_info = create_jpylyzer_info(jp_fp)
+        stop = timeit.default_timer()
+        creation_time = stop - start
+        print(f"Creation of jpylyzer info takes {creation_time}")
+        start = timeit.default_timer()
         write_to_json(jpylyzer_info, output_file)
+        stop = timeit.default_timer()
+        write_time = stop - start
+        print(f"Writing of jpylyzer info takes {write_time}")
 
 
 if __name__ == "__main__":
